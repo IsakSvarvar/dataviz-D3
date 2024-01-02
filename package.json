@@ -1,0 +1,14 @@
+{
+  "name": "@isaksvarvar/assignment-3",
+  "main": "163bc178002ae8ac@1268.js",
+  "version": "1268.0.0",
+  "homepage": "https://observablehq.com/@isaksvarvar/assignment-3",
+  "author": {
+    "name": "Isak Svarvar",
+    "url": "https://observablehq.com/@isaksvarvar"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4 - 5"
+  }
+}
