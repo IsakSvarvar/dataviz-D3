@@ -1,33 +1,4 @@
-# Assignment 3
+# Datavisualization using D3 (from observable)
+This is an assignment from a dataviz course that I'm reuploading. The code was created on observablehq back in late 2021.
 
-https://observablehq.com/@isaksvarvar/assignment-3@1268
-
-View this notebook in your browser by running a web server in this folder. For
-example:
-
-~~~sh
-npx http-server
-~~~
-
-Or, use the [Observable Runtime](https://github.com/observablehq/runtime) to
-import this module directly into your application. To npm install:
-
-~~~sh
-npm install @observablehq/runtime@5
-npm install https://api.observablehq.com/d/163bc178002ae8ac@1268.tgz?v=3
-~~~
-
-Then, import your notebook and the runtime as:
-
-~~~js
-import {Runtime, Inspector} from "@observablehq/runtime";
-import define from "@isaksvarvar/assignment-3";
-~~~
-
-To log the value of the cell named “foo”:
-
-~~~js
-const runtime = new Runtime();
-const main = runtime.module(define);
-main.value("foo").then(value => console.log(value));
-~~~
+View this notebook in your browser by running a web server in this folder.
